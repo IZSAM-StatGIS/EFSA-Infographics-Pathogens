@@ -28,19 +28,33 @@
 
 <nav>
   <div class="organisms">
-    <div class="organisms-category" id="bacteria">
+    <div class="organisms-list" id="bacteria">
       <h3>Bacteria</h3>
-    </div>
-    <div class="organisms-list">
       <ul>
         <li>
           <a onclick="loadContents(this)" id="campylobacter">
+            <img src="/images/campylobacter/visual.png" alt="Illusttration for Campylobacter">
             Campylobacter
           </a>
         </li>
         <li>
           <a onclick="loadContents(this)" id="salmonella">
             Salmonella
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="organisms-list" id="patcat">
+      <h3>Altro</h3>
+      <ul>
+        <li>
+          <a onclick="loadContents(this)" id="pat1">
+            Pat1
+          </a>
+        </li>
+        <li>
+          <a onclick="loadContents(this)" id="pat2">
+            Pat2
           </a>
         </li>
       </ul>
@@ -68,7 +82,7 @@
         <div class="pathogen-info-item pathogen-info-item-description" id="pathogen-description">
           <div class="pathogen-info-item-illustration">
             <div class="modal-trigger" onclick="showModal(this)"></div>
-            <img src="images/campylobacter/description.png" alt="Document iconic illustration">
+            <img src="images/shared/description.png" alt="Document iconic illustration">
           </div>
           <h5>Description</h5>
           <div class="pathogen-content pathogen-content-description">
@@ -80,7 +94,7 @@
         <div class="pathogen-info-item" id="pathogen-symptoms">
           <div class="pathogen-info-item-illustration">
             <div class="modal-trigger" onclick="showModal(this)"></div>
-            <img src="images/campylobacter/symptoms.png" alt="Symptoms iconic illustration">
+            <img src="images/shared/symptoms.png" alt="Symptoms iconic illustration">
           </div>
           <h5>Symptoms</h5>
           <div class="pathogen-content pathogen-content-symptoms">

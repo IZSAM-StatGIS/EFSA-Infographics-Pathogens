@@ -6,15 +6,47 @@ var request = new XMLHttpRequest();
    request.send(null)
    var JSON_contents = JSON.parse(request.responseText);
 
-bodyEl.onload = function() {
-  bodyEl.classList.add("loaded");
-}
-
+/* Build contents from JSON */
 function loadContents(elem) {
   var elemId = elem.id;
-  var categoryId = elemSelection.closest(".organisms-category");
-  console.log(categoryId);
-  console.log(JSON_contents.bacteria[elemId]);
+  var elemSelection = document.querySelector('#'+elemId);
+  var categoryBlock = elemSelection.closest(".organisms-list");
+  var categoryId = categoryBlock.id;
+  var category;
+  if (categoryId=="bacteria") {
+    category = JSON_contents.bacteria[elemId];
+  }
+  if (categoryId=="patcat") {
+    category = JSON_contents.patcat[elemId];
+  }
+
+  // define dom variable
+  var pathongenHead = document.querySelector('.pathogen-name');
+  var pathongenCategory = pathongenHead.querySelector('h3');
+  var pathongenName = pathongenHead.querySelector('h1');
+  var pathongenVisual = document.querySelector('.visual');
+  var pathongenIncubationPeriod = document.querySelector('.incubation-period p');
+  var pathongenDescription = document.querySelector('.pathogen-content-description p');
+  var pathongenSymptoms = document.querySelector('.pathogen-content-symptoms p');
+  var pathongenTransmission = document.querySelector('.pathogen-transmission');
+  var pathongenTransmissionContents = pathongenTransmission.querySelector('.pathogen-content-transmission p');
+  // define contents
+  pathongenCategory.innerHTML = categoryId;
+  pathongenName.innerHTML = category.name;
+  pathongenIncubationPeriod.innerHTML = category.incubation;
+  pathongenVisual.getElementsByTagName("img")[0].src = category.cover["src"];
+  pathongenVisual.getElementsByTagName("img")[0].alt = category.cover["alt"];
+  pathongenDescription.innerHTML = category.description;
+  pathongenSymptoms.innerHTML = category.symptoms;
+  pathongenTransmission.getElementsByTagName("img")[0].src = category.mtimage["src"];
+  pathongenTransmission.getElementsByTagName("img")[0].alt = category.mtimage["alt"];
+  pathongenTransmissionContents.innerHTML = category.transmission;
+  // show loadContents
+  bodyEl.classList.toggle("show-contents");
+}
+
+bodyEl.onload = function() {
+  bodyEl.classList.add("loaded");
 }
 
 function showModal(elem) {
