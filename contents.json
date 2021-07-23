@@ -1,0 +1,34 @@
+{
+  "bacteria": {
+    "campylobacter": {
+      "name": "Campylobacter",
+      "cover": {
+        "src": "images/campylobacter/visual.png",
+        "alt": "Illusttration for Campylobacter"
+      },
+      "incubation": "2-5 days (range 1-11 days)",
+      "description": "Of the eight species of <em>Campylobacter</em> considered to be of clinical importance, <em>C. jejuni</em> is responsible for the majority of human infections.",
+      "symptoms": "Fever, severe abdominal pain, nausea and diarrhoea which can vary from slight to profuse and watery",
+      "transmission": "Ingestion of contaminated food. Main food sources are raw milk and raw or undercooked poultry. Spread to other foods by cross-contamination or contamination with untreated water",
+      "t-image": {
+        "src": "images/campylobacter/transmission-mode.png",
+        "alt": "Transmission mode icon"
+      }
+    },
+    "salmonella": {
+      "name": "Salmonella",
+      "cover": {
+        "src": "images/campylobacter/visual.png",
+        "alt": "Illusttration for Salmonella"
+      },
+      "incubation": "6–48 hours",
+      "description": "Lorem ipsum...",
+      "symptoms": "Fever, headache, nausea, vomiting, abdominal pain and diarrhoea",
+      "transmission": "Ingestion of the organisms in food (milk, meat, poultry, eggs) derived from infected food animals. Food can also be contaminated by infected food-handlers or by cross-contamination as a result of poor hygiene",
+      "t-image": {
+        "src": "images/salmonella/transmission-mode.png",
+        "alt": "Transmission mode icon"
+      }
+    }
+  }
+}

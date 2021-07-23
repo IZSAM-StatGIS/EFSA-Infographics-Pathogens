@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Your page title here :)</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+<nav>
+  <div class="organisms">
+    <div class="organisms-category" id="bacteria">
+      <h3>Bacteria</h3>
+    </div>
+    <div class="organisms-list">
+      <ul>
+        <li>
+          <a onclick="loadContents(this)" id="campylobacter">
+            Campylobacter
+          </a>
+        </li>
+        <li>
+          <a onclick="loadContents(this)" id="salmonella">
+            Salmonella
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="main">
+  <div class="infographics-wrap">
+    <div class="card card-header">
+      <div class="pathogen-name">
+        <h3>Bacteria</h3>
+        <h1>Campylobacter</h1>
+      </div>
+      <div class="visual">
+        <img src="images/campylobacter/visual.png" alt="Campylobacter illustration">
+      </div>
+      <div class="incubation-period">
+        <h6>Incubation period</h6>
+        <p>2-5 days (range 1-11 days)</p>
+      </div>
+    </div>
+    <div class="card card-contents">
+      <div class="pathogen-info">
+        <div class="pathogen-info-item pathogen-info-item-description" id="pathogen-description">
+          <div class="pathogen-info-item-illustration">
+            <div class="modal-trigger" onclick="showModal(this)"></div>
+            <img src="images/campylobacter/description.png" alt="Document iconic illustration">
+          </div>
+          <h5>Description</h5>
+          <div class="pathogen-content pathogen-content-description">
+            <p>
+              Of the eight species of <em>Campylobacter</em> considered to be of clinical importance, <em>C. jejuni</em> is responsible for the majority of human infections.
+            </p>
+          </div>
+        </div>
+        <div class="pathogen-info-item" id="pathogen-symptoms">
+          <div class="pathogen-info-item-illustration">
+            <div class="modal-trigger" onclick="showModal(this)"></div>
+            <img src="images/campylobacter/symptoms.png" alt="Symptoms iconic illustration">
+          </div>
+          <h5>Symptoms</h5>
+          <div class="pathogen-content pathogen-content-symptoms">
+            <p>
+              Fever, severe abdominal pain, nausea and diarrhoea which can vary from slight to profuse and watery.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="pathogen-transmission" id="pathogen-transmission">
+        <div class="pathogen-info-item-illustration">
+          <div class="modal-trigger" onclick="showModal(this)"></div>
+          <img src="images/campylobacter/transmission-mode.png" alt="Milk and coockek chiken illustration">
+        </div>
+        <h5>Mode of transmission</h5>
+        <div class="pathogen-content pathogen-content-transmission">
+          <p>
+            Ingestion of contaminated food. Main food sources are raw milk and raw or undercooked poultry. Spread to other foods by cross-contamination or contamination with untreated water.
+          </p>
+        </div>
+      </div>
+    </div>
+</section>
+
+<section class="modal">
+  <div class="modal-box">
+    <div class="modal-close" onclick="closeModal(this)"></div>
+    <div class="modal-visual">
+      <img src="" alt="">
+    </div>
+    <div class="modal-contents">
+      <div class="modal-title">
+      </div>
+      <div class="modal-content">
+      </div>
+    </div>
+  </div>
+</section>
+
+<script src="js/functions.js"></script>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
