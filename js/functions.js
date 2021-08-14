@@ -1,10 +1,19 @@
 const bodyEl = document.body;
 const html = document.documentElement;
+var navPathogensContainer = document.querySelector('.organisms');
+var JSON_contents;
+
 /* Get JSON contents */
 var request = new XMLHttpRequest();
-   request.open("GET", "contents.json", false);
-   request.send(null)
-   var JSON_contents = JSON.parse(request.responseText);
+  request.open("GET", "contents.json", false);
+  request.send(null)
+  var JSON_contents = JSON.parse(request.responseText);
+
+  //for(var key in JSON_contents.jsonData) {
+  //  for (var key1 in JSON_contents.jsonData[key]) {
+  //    console.log(JSON_contents.jsonData[key][key1].id);
+  //  }
+  //}
 
 /* Build contents from JSON */
 function loadContents(elem) {
@@ -43,6 +52,10 @@ function loadContents(elem) {
   pathongenTransmissionContents.innerHTML = category.transmission;
   // show loadContents
   bodyEl.classList.toggle("show-contents");
+}
+
+function backToMenu() {
+  bodyEl.classList.remove("show-contents");
 }
 
 bodyEl.onload = function() {

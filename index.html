@@ -1,28 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   <title>Your page title here :)</title>
   <meta name="description" content="">
   <meta name="author" content="">
-
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="style.css">
-
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
-
 </head>
 <body>
 
@@ -39,6 +34,7 @@
         </li>
         <li>
           <a onclick="loadContents(this)" id="salmonella">
+            <img src="/images/salmonella/visual.png" alt="Illusttration for Salmonella">
             Salmonella
           </a>
         </li>
@@ -49,11 +45,13 @@
       <ul>
         <li>
           <a onclick="loadContents(this)" id="pat1">
+            <img src="/images/pat1/visual.png" alt="Illusttration for Pat1">
             Pat1
           </a>
         </li>
         <li>
           <a onclick="loadContents(this)" id="pat2">
+            <img src="/images/pat2/visual.png" alt="Illusttration for Pat2">
             Pat2
           </a>
         </li>
@@ -66,7 +64,7 @@
   <div class="infographics-wrap">
     <div class="card card-header">
       <div class="pathogen-name">
-        <h3>Bacteria</h3>
+        <h3 onclick="backToMenu()">Bacteria</h3>
         <h1>Campylobacter</h1>
       </div>
       <div class="visual">
