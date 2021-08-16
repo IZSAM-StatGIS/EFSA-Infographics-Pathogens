@@ -5,15 +5,15 @@
       "id": "campylobacter",
       "name": "Campylobacter",
       "cover": {
-        "src": "images/campylobacter/visual.png",
+        "src": "images/bacteria/campylobacter/visual.png",
         "alt": "Illusttration for Campylobacter"
       },
       "incubation": "2-5 days (range 1-11 days)",
-      "description": "Of the eight species of <em>Campylobacter</em> considered to be of clinical importance, <em>C. jejuni</em> is responsible for the majority of human infections.",
-      "symptoms": "Fever, severe abdominal pain, nausea and diarrhoea which can vary from slight to profuse and watery",
-      "transmission": "Ingestion of contaminated food. Main food sources are raw milk and raw or undercooked poultry. Spread to other foods by cross-contamination or contamination with untreated water",
+      "description": "<em>Campylobacter jejuni</em> and <em>Campylobacter coli</em> are the main clinically relevant species of <em>Campylobacter</em> and are responsible for majority of human infections. Although <em>C. jejuni</em> is the most frequent cause of campylobacteriosis in humans, <em>C. coli</em> can contribute to 25% of the cases. Poultry and domestic animals are the principal reservoirs of infection, with the first being responsible directly and indirectly for 50%-80% of the reported human cases.",
+      "symptoms": "Fever, severe abdominal pain, nausea and diarrhoea which can vary from slight to profuse and watery.",
+      "transmission": "Ingestion of contaminated food. Main food sources are raw milk and raw or undercooked poultry. Spread to other foods by cross-contamination or contamination with untreated water.",
       "mtimage": {
-        "src": "images/campylobacter/transmission-mode.png",
+        "src": "images/bacteria/campylobacter/transmission-mode.png",
         "alt": "Transmission mode icon"
       }
     },
@@ -21,49 +21,299 @@
       "id": "salmonella",
       "name": "Salmonella",
       "cover": {
-        "src": "images/salmonella/visual.png",
+        "src": "images/bacteria/salmonella/visual.png",
         "alt": "Illusttration for Salmonella"
       },
       "incubation": "6–48 hours",
-      "description": "Lorem ipsum...",
-      "symptoms": "Fever, headache, nausea, vomiting, abdominal pain and diarrhoea",
-      "transmission": "Ingestion of the organisms in food (milk, meat, poultry, eggs) derived from infected food animals. Food can also be contaminated by infected food-handlers or by cross-contamination as a result of poor hygiene",
+      "description": "There are more than 2200 different <em>Salmonella</em> serotypes and the great majority are capable of causing human infection. <em>S. enteritidis</em> and <em>S. typhimurium</em> are considered the most important serotypes from a public health perspective. <em>Salmonella have typical animal reservoirs with many domestic species playing an important role as source of human infection, in particular hens, poultry, pigs and cattle.",
+      "symptoms": "Fever, headache, nausea, vomiting, abdominal pain and diarrhoea.",
+      "transmission": "Humans become infected through the consumption of a wide variety of food derived from infected food animals (i.e. eggs, milk, meat and meat products). Food can also be contaminated by infected food-handlers or by cross contamination as a result of poor hygiene (bakery products, fruits, vegetables and water).",
       "mtimage": {
-        "src": "images/salmonella/transmission-mode.png",
+        "src": "images/bacteria/salmonella/transmission-mode.png",
+        "alt": "Transmission mode icon"
+      }
+    },
+    "listeria": {
+      "id": "listeria",
+      "name": "Listeria",
+      "cover": {
+        "src": "images/bacteria/listeria/visual.png",
+        "alt": "Illusttration for Listeria"
+      },
+      "incubation": "Days to several weeks",
+      "description": "<em>L. monocytogenes</em> is widely distributed in the environment; the bacterium may enter abattoirs with carrier animals but contamination of food products often originates from the environment in which these are processed rather than from animals. <em>L. monocytogenes</em> can cause abortion and stillborn in pregnant women and in infants and persons with a weakened immune system it may lead to septicaemia and meningitis.",
+      "symptoms": "Influenza-like symptoms such as fever, headache and occasionally gastrointestinal symptoms. In pregnant women abortion and stillbirth. Meningoencephalitis in neonate and immunocompromised subjects.",
+      "transmission": "The disease is most often associated with consumption of foods such as raw milk, soft cheese, meat-products, fish and fish products.",
+      "mtimage": {
+        "src": "images/bacteria/listeria/transmission-mode.png",
+        "alt": "Transmission mode icon"
+      }
+    },
+    "coli": {
+      "id": "coli",
+      "name": "Shigatoxin-producing Escherichia Coli (STEC)",
+      "cover": {
+        "src": "images/bacteria/coli/visual.png",
+        "alt": "Illusttration for Escherichia Coli"
+      },
+      "incubation": "3-8 days",
+      "description": "Shigatoxin-producing <em>E. coli</em> are zoonotic agents whose natural reservoirs are domestic ruminants (cattle, goats, sheep). Clinical course of STEC infection in humans may range from mild abdominal pain to haemorrhagic colitis and haemolytic uremic syndrome (HUS), a severe systemic condition characterised by anemia, thrombocytopenia and acute renal failure. HUS affects particularly small children.",
+      "symptoms": "Abdominal cramps and watery diarrhoea that may develop into bloody ((haemorrhagic colitis), fever and vomiting.",
+      "transmission": "Infections are usually caused by the consumption of contaminated food of animal origin such minced meat, undercooked hamburger, raw unpasteurised milk and raw milk cheeses but also leafy green vegetables, sprouts and contaminated drinking water.",
+      "mtimage": {
+        "src": "images/bacteria/coli/transmission-mode.png",
+        "alt": "Transmission mode icon"
+      }
+    },
+    "yersinia": {
+      "id": "yersinia",
+      "name": "Yersinia",
+      "cover": {
+        "src": "images/bacteria/yersinia/visual.png",
+        "alt": "Illusttration for Yersinia"
+      },
+      "incubation": "24-36 hours",
+      "description": "<em>Y. enterocolitica</em> which can be isolated from many species of mammals and birds is an important cause of gastroenteritis in humans. In contrast to the frequent occurrence of bacteria in pigs, pathogenic Y. enterocolitica have only exceptionally been found on retail pork products.",
+      "symptoms": "Abdominal pain, diarrhoea, mild fever, vomiting.",
+      "transmission": "Consumption of pork products (tongue, tonsils, gut), cured or uncured, as well as milk and milk products.",
+      "mtimage": {
+        "src": "images/bacteria/yersinia/transmission-mode.png",
+        "alt": "Transmission mode icon"
+      }
+    },
+    "brucella": {
+      "id": "brucella",
+      "name": "Brucella",
+      "cover": {
+        "src": "images/bacteria/brucella/visual.png",
+        "alt": "Illusttration for Brucella"
+      },
+      "incubation": "Several days to several weeks/month",
+      "description": "One of the most widespread zoonoses, brucellosis is caused by various bacteria in the genus <em>Brucella</em>. In humans, the main symptom is recurrent bouts of high temperature, but flu-like symptoms and chronic debilitating disease are also common.",
+      "symptoms": "Continuous, intermittent or irregular fever, lassitude, sweat, headache, chills, constipation, arthralgias, generalized aching, weight loss, anorexia.",
+      "transmission": "Consumption of milk (usually goat’s or sheep’s milk) and products made from unpasteurized milk (e.g. fresh goat’s cheese).",
+      "mtimage": {
+        "src": "images/bacteria/brucella/transmission-mode.png",
         "alt": "Transmission mode icon"
       }
     }
   },
-  "patcat": {
-    "pat1": {
-      "id": "pat1",
-      "name": "Pat1",
+  "toxins": {
+    "catname": "Bacterial toxins",
+    "bacillus-cereus": {
+      "id": "bacillus-cereus",
+      "name": "Toxins of Bacillus cereus",
       "cover": {
-        "src": "images/pat1/visual.png",
-        "alt": "Illusttration for Pat1"
+        "src": "images/bacterial-toxins/bacillus-cereus/visual.png",
+        "alt": "Illusttration for Toxins of Bacillus cereus"
       },
-      "incubation": "Incubation period Pat1",
-      "description": "Lorem ipsum Pat1",
-      "symptoms": "Symptoms Pat1",
-      "transmission": "Transmission mode Pat1",
+      "incubation": "TBD",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "symptoms": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "transmission": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
       "mtimage": {
-        "src": "images/pat1/transmission-mode.png",
+        "src": "images/bacterial-toxins/bacillus-cereus/transmission-mode.png",
         "alt": "Transmission mode icon"
       }
     },
-    "pat2": {
-      "id": "pat2",
-      "name": "Pat2",
+    "clostridium-botulinum": {
+      "id": "clostridium-botulinum",
+      "name": "Clostridium botulinum",
       "cover": {
-        "src": "images/pat2/visual.png",
-        "alt": "Illusttration for Pat2"
+        "src": "images/bacterial-toxins/clostridium-botulinum/visual.png",
+        "alt": "Illusttration for Toxins of Bacillus cereus"
       },
-      "incubation": "Incubation period Pat2",
-      "description": "Lorem ipsum Pat2",
-      "symptoms": "Symptoms Pat2",
-      "transmission": "Transmission mode Pat2",
+      "incubation": "TBD",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "symptoms": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "transmission": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
       "mtimage": {
-        "src": "images/pat2/transmission-mode.png",
+        "src": "images/bacterial-toxins/clostridium-botulinum/transmission-mode.png",
+        "alt": "Transmission mode icon"
+      }
+    },
+    "clostridium-perfringens": {
+      "id": "clostridium-perfringens",
+      "name": "Clostridium perfringens",
+      "cover": {
+        "src": "images/bacterial-toxins/clostridium-perfringens/visual.png",
+        "alt": "Illusttration for Toxins of Bacillus cereus"
+      },
+      "incubation": "TBD",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "symptoms": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "transmission": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "mtimage": {
+        "src": "images/bacterial-toxins/clostridium-perfringens/transmission-mode.png",
+        "alt": "Transmission mode icon"
+      }
+    },
+    "staphylococcus-aureus": {
+      "id": "staphylococcus-aureus",
+      "name": "Staphylococcus aureus",
+      "cover": {
+        "src": "images/bacterial-toxins/staphylococcus-aureus/visual.png",
+        "alt": "Illusttration for Toxins of Bacillus cereus"
+      },
+      "incubation": "TBD",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "symptoms": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "transmission": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "mtimage": {
+        "src": "images/bacterial-toxins/staphylococcus-aureus/transmission-mode.png",
+        "alt": "Transmission mode icon"
+      }
+    }
+  },
+  "viruses": {
+    "catname": "Viruses",
+    "calicivirus": {
+      "id": "calicivirus",
+      "name": "Calicivirus (including norovirus)",
+      "cover": {
+        "src": "images/viruses/calicivirus/visual.png",
+        "alt": "Illusttration for Calicivirus"
+      },
+      "incubation": "TBD",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "symptoms": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "transmission": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "mtimage": {
+        "src": "images/viruses/calicivirus/transmission-mode.png",
+        "alt": "Transmission mode icon"
+      }
+    },
+    "hepatitis-A": {
+      "id": "hepatitis-A",
+      "name": "hepatitis A virus",
+      "cover": {
+        "src": "images/viruses/hepatitis-A/visual.png",
+        "alt": "Illusttration for Calicivirus"
+      },
+      "incubation": "TBD",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "symptoms": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "transmission": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "mtimage": {
+        "src": "images/viruses/hepatitis-A/transmission-mode.png",
+        "alt": "Transmission mode icon"
+      }
+    },
+    "hepatitis-E": {
+      "id": "hepatitis-E",
+      "name": "hepatitis E virus",
+      "cover": {
+        "src": "images/viruses/hepatitis-A/visual.png",
+        "alt": "Illusttration for Calicivirus"
+      },
+      "incubation": "TBD",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "symptoms": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "transmission": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "mtimage": {
+        "src": "images/viruses/hepatitis-A/transmission-mode.png",
+        "alt": "Transmission mode icon"
+      }
+    }
+  },
+  "parasites": {
+    "catname": "Parasites",
+    "trichinella": {
+      "id": "trichinella",
+      "name": "Trichinella",
+      "cover": {
+        "src": "images/parasites/trichinella/visual.png",
+        "alt": "Illusttration for Trichinella"
+      },
+      "incubation": "TBD",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "symptoms": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "transmission": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "mtimage": {
+        "src": "images/parasites/trichinella/transmission-mode.png",
+        "alt": "Transmission mode icon"
+      }
+    },
+    "toxoplasma": {
+      "id": "toxoplasma",
+      "name": "Toxoplasma",
+      "cover": {
+        "src": "images/parasites/toxoplasma/visual.png",
+        "alt": "Illusttration for Toxoplasma"
+      },
+      "incubation": "TBD",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "symptoms": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "transmission": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "mtimage": {
+        "src": "images/parasites/toxoplasma/transmission-mode.png",
+        "alt": "Transmission mode icon"
+      }
+    },
+    "cryptosporidium": {
+      "id": "cryptosporidium",
+      "name": "Cryptosporidium",
+      "cover": {
+        "src": "images/parasites/cryptosporidium/visual.png",
+        "alt": "Illusttration for Cryptosporidium"
+      },
+      "incubation": "TBD",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "symptoms": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "transmission": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "mtimage": {
+        "src": "images/parasites/cryptosporidium/transmission-mode.png",
+        "alt": "Transmission mode icon"
+      }
+    },
+    "giardia": {
+      "id": "giardia",
+      "name": "Giardia",
+      "cover": {
+        "src": "images/parasites/giardia/visual.png",
+        "alt": "Illusttration for Giardia"
+      },
+      "incubation": "TBD",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "symptoms": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "transmission": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "mtimage": {
+        "src": "images/parasites/giardia/transmission-mode.png",
+        "alt": "Transmission mode icon"
+      }
+    }
+  },
+  "other": {
+    "catname": "Other causative agents",
+    "histamine": {
+      "id": "histamine",
+      "name": "Histamine",
+      "cover": {
+        "src": "images/other/histamine/visual.png",
+        "alt": "Illusttration for Histamine"
+      },
+      "incubation": "TBD",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "symptoms": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "transmission": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "mtimage": {
+        "src": "images/other/histamine/transmission-mode.png",
+        "alt": "Transmission mode icon"
+      }
+    },
+    "marine-biotoxins": {
+      "id": "marine-biotoxins",
+      "name": "Marine biotoxins",
+      "cover": {
+        "src": "images/other/marine-biotoxins/visual.png",
+        "alt": "Illusttration for Marine biotoxins"
+      },
+      "incubation": "TBD",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "symptoms": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "transmission": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "mtimage": {
+        "src": "images/other/marine-biotoxins/transmission-mode.png",
         "alt": "Transmission mode icon"
       }
     }

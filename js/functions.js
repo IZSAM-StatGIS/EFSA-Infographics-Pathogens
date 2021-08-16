@@ -24,9 +24,23 @@ function loadContents(elem) {
   var category;
   if (categoryId=="bacteria") {
     category = JSON_contents.bacteria[elemId];
+    categoryName = JSON_contents.bacteria["catname"];
   }
-  if (categoryId=="patcat") {
-    category = JSON_contents.patcat[elemId];
+  if (categoryId=="bacterial-toxins") {
+    category = JSON_contents.toxins[elemId];
+    categoryName = JSON_contents.toxins["catname"];
+  }
+  if (categoryId=="viruses") {
+    category = JSON_contents.viruses[elemId];
+    categoryName = JSON_contents.viruses["catname"];
+  }
+  if (categoryId=="parasites") {
+    category = JSON_contents.parasites[elemId];
+    categoryName = JSON_contents.viruses["catname"];
+  }
+  if (categoryId=="other") {
+    category = JSON_contents.other[elemId];
+    categoryName = JSON_contents.viruses["catname"];
   }
 
   // define dom variable
@@ -40,7 +54,7 @@ function loadContents(elem) {
   var pathongenTransmission = document.querySelector('.pathogen-transmission');
   var pathongenTransmissionContents = pathongenTransmission.querySelector('.pathogen-content-transmission p');
   // define contents
-  pathongenCategory.innerHTML = categoryId;
+  pathongenCategory.innerHTML = categoryName;
   pathongenName.innerHTML = category.name;
   pathongenIncubationPeriod.innerHTML = category.incubation;
   pathongenVisual.getElementsByTagName("img")[0].src = category.cover["src"];
