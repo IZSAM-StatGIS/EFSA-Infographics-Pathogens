@@ -4,10 +4,25 @@ var navPathogensContainer = document.querySelector('.organisms');
 var JSON_contents;
 
 /* Get JSON contents */
-var request = new XMLHttpRequest();
-  request.open("GET", "contents.json", false);
-  request.send(null)
-  var JSON_contents = JSON.parse(request.responseText);
+function loadJSON(url, callback) {
+  var xobj = new XMLHttpRequest();
+  xobj.overrideMimeType('application/json');
+  xobj.open('GET', url);
+  xobj.onreadystatechange = function() {
+    if (xobj.readyState == 4 && xobj.status == '200') {
+      JSON_contents = JSON.parse(xobj.responseText);
+      callback(JSON_contents);
+    }
+  };
+  xobj.send(null);
+}
+
+loadJSON('contents.json', function(result) {
+  console.log(result)
+});
+
+
+
 
   //for(var key in JSON_contents.jsonData) {
   //  for (var key1 in JSON_contents.jsonData[key]) {
