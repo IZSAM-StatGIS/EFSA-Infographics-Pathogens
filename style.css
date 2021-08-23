@@ -216,7 +216,7 @@ nav .organisms-list ul li {
 nav .organisms-list ul li a {
   cursor: pointer;
   color: var(--alternative);
-  cursor: url('/images/icons/arrow-right-cursor.png'), auto;
+  cursor: url('images/icons/arrow-right-cursor.png'), auto;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
