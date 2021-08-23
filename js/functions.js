@@ -18,11 +18,8 @@ function loadJSON(url, callback) {
 }
 
 loadJSON('contents.json', function(result) {
-  console.log(result)
+  console.log(result);
 });
-
-
-
 
   //for(var key in JSON_contents.jsonData) {
   //  for (var key1 in JSON_contents.jsonData[key]) {
