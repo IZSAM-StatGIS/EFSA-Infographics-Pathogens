@@ -1,7 +1,47 @@
 const bodyEl = document.body;
 const html = document.documentElement;
+var nav = document.querySelector('nav');
 var navPathogensContainer = document.querySelector('.organisms');
 var JSON_contents;
+var grid = document.querySelector('.grid');
+var iso = new Isotope( grid, {
+  // options
+  itemSelector: '.grid-item',
+  percentPosition: true,
+  layoutMode: 'fitRows',
+  fitWidth: true,
+  masonry: {
+    // use element for option
+    columnWidth: '.grid-sizer'
+  },
+});
+
+imagesLoaded( grid ).on( 'progress', function() {
+  // layout Isotope after each image loads
+  iso.layout();
+});
+
+window.onresize = restartLayout;
+function restartLayout() {
+  location.reload();
+  return false;
+}
+
+// bind filter button click
+var filtersElem = document.querySelector('.filters-button-group');
+filtersElem.addEventListener( 'click', function( event ) {
+  // only work with buttons
+  if ( !matchesSelector( event.target, 'li' ) ) {
+    return;
+  } else {
+    [].forEach.call(document.querySelectorAll('.button'), function (el) {
+        el.classList.remove('is-checked');
+    });
+    event.target.classList.toggle("is-checked");
+  }
+  var filterValue = event.target.getAttribute('data-filter');
+  iso.arrange({ filter: filterValue });
+});
 
 /* Get JSON contents */
 function loadJSON(url, callback) {
@@ -31,26 +71,24 @@ loadJSON('contents.json', function(result) {
 function loadContents(elem) {
   var elemId = elem.id;
   var elemSelection = document.querySelector('#'+elemId);
-  var categoryBlock = elemSelection.closest(".organisms-list");
-  var categoryId = categoryBlock.id;
-  var category;
-  if (categoryId=="bacteria") {
+  var categoryBlock = elemSelection.closest(".grid-item");
+  if (categoryBlock.classList.contains("bacteria")) {
     category = JSON_contents.bacteria[elemId];
     categoryName = JSON_contents.bacteria["catname"];
   }
-  if (categoryId=="bacterial-toxins") {
+  if (categoryBlock.classList.contains("bacterial-toxins")) {
     category = JSON_contents.toxins[elemId];
     categoryName = JSON_contents.toxins["catname"];
   }
-  if (categoryId=="viruses") {
+  if (categoryBlock.classList.contains("viruses")) {
     category = JSON_contents.viruses[elemId];
     categoryName = JSON_contents.viruses["catname"];
   }
-  if (categoryId=="parasites") {
+  if (categoryBlock.classList.contains("parasites")) {
     category = JSON_contents.parasites[elemId];
     categoryName = JSON_contents.viruses["catname"];
   }
-  if (categoryId=="other") {
+  if (categoryBlock.classList.contains("other")) {
     category = JSON_contents.other[elemId];
     categoryName = JSON_contents.viruses["catname"];
   }
@@ -116,3 +154,11 @@ function showModal(elem) {
 function closeModal(elem) {
   bodyEl.classList.remove("show-modal");
 }
+
+nav.onscroll = function() {
+  if (nav.scrollTop > 100) {
+    bodyEl.classList.add("scrolling");
+  } else {
+    bodyEl.classList.remove("scrolling");
+  }
+};

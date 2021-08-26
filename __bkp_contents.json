@@ -107,10 +107,10 @@
         "src": "images/bacterial-toxins/bacillus-cereus/visual.png",
         "alt": "Illusttration for Toxins of Bacillus cereus"
       },
-      "incubation": "Diarrhoeal syndrome: 8 16 hours. Emetic syndrome: 1-5 hours",
-      "description": "<em>B. cereus</em> can produce two different types of toxins responsible for foodborne illness. The emetic toxin causes vomiting, while the enterotoxin(s) induces diarrhoea. Generally, the disease is self-limiting in 24 hours but occasionally can persist for up to several days. B. cereus spores are ubiquitous in the environment, raw materials, and foods. Improper food handler and storage are the primary reason for toxinogenesis.",
-      "symptoms": "Diarrhoeal syndrome: acute diarrhoea, nausea and abdominal pain. Emetic syndrome: acute nausea, vomiting and abdominal pain and sometimes diarrhoea.",
-      "transmission": "Ingestion of food that has been stored at ambient temperatures after cooking, permitting the growth of bacterial spores and toxin production. The most common foods implicated in the emetic syndrome are fried and cooked rice, pasta, pastry, and noodles. Those mainly involved in the diarrheal manifestation are meat products, soups, vegetables, sauces, milk, and milk products.",
+      "incubation": "TBD",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "symptoms": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "transmission": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
       "mtimage": {
         "src": "images/bacterial-toxins/bacillus-cereus/transmission-mode.png",
         "alt": "Transmission mode icon"
@@ -123,10 +123,10 @@
         "src": "images/bacterial-toxins/clostridium-botulinum/visual.png",
         "alt": "Illusttration for Toxins of Bacillus cereus"
       },
-      "incubation": "12-36 hours (range several hours to 8 days)",
-      "description": "Botulinum toxins (BoNTs) are the most potent protein poisons known for humans and warm-blooded animals. Since C. botulinum and other BoNT-producing clostridia are environmental microorganisms, they may contaminate raw material and foods. Improper canning or processing can allow spores germination, overgrowth, and toxin production. The consumption of a small amount of foods contaminated with BoNTs can cause a severe neuro-paralytic disease named botulism.",
-      "symptoms": "Vomiting, abdominal pain, fatigue, muscle weakness, headache, constipation, dry mouth and difficulty in swallowing and speaking, and ultimately paralysis and respiratory or heart failure.",
-      "transmission": "Ingestion of toxin pre-formed in food. Home-canned vegetables, fermented fish products, canned meat, foods packaged in air-tight or modified-atmosphere containers stored at inappropriate refrigeration conditions are the typical foods associated with foodborne botulism.",
+      "incubation": "TBD",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "symptoms": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "transmission": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
       "mtimage": {
         "src": "images/bacterial-toxins/clostridium-botulinum/transmission-mode.png",
         "alt": "Transmission mode icon"
@@ -139,10 +139,10 @@
         "src": "images/bacterial-toxins/clostridium-perfringens/visual.png",
         "alt": "Illusttration for Toxins of Bacillus cereus"
       },
-      "incubation": "8-24 hours",
-      "description": "Strains of <em>C. perfringens</em> may produce more than 20 toxins and dangerous enzymes. Those responsible for foodborne illness cause mainly stomach cramps and diarrhoea; nausea and vomiting are rare. <em>C. perfringens</em> is widely distributed in the environment including soil, water, species, intestinal tract.",
-      "symptoms": "Abdominal pain, diarrhoea, rarely vomiting and fever.",
-      "transmission": "Undercooked, improperly stored (at abusive temperatures), meat dishes are the food items mainly involved in outbreaks. Considering that this microorganism can rapidly multiply, foods slowly cooled after cooking can be at risk. Foods involved include meat and poultry.",
+      "incubation": "TBD",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "symptoms": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "transmission": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
       "mtimage": {
         "src": "images/bacterial-toxins/clostridium-perfringens/transmission-mode.png",
         "alt": "Transmission mode icon"
@@ -155,10 +155,10 @@
         "src": "images/bacterial-toxins/staphylococcus-aureus/visual.png",
         "alt": "Illusttration for Toxins of Bacillus cereus"
       },
-      "incubation": "2-6 hours",
-      "description": "<em>S. aureus</em> produces several enterotoxins capable of inducing intoxication. Improperly handling and storage (at abusive temperature) are the leading cause of proliferation and toxinogenesis of <em>S. aureus</em> in foods.",
-      "symptoms": "Severe nausea, abdominal cramps, vomiting sometimes accompanied by diarrhoea, sweating, headache and prostration.",
-      "transmission": "Foods mainly implicated in outbreaks are meat dishes (especially pork and poultry), egg products, salads, bakery products such as cream-filled pastries, sandwich fillings, and milk and dairy products.",
+      "incubation": "TBD",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "symptoms": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "transmission": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
       "mtimage": {
         "src": "images/bacterial-toxins/staphylococcus-aureus/transmission-mode.png",
         "alt": "Transmission mode icon"
@@ -167,33 +167,33 @@
   },
   "viruses": {
     "catname": "Viruses",
-    "norovirus": {
-      "id": "norovirus",
-      "name": "Norovirus (NoV)",
+    "calicivirus": {
+      "id": "calicivirus",
+      "name": "Calicivirus (including norovirus)",
       "cover": {
-        "src": "images/viruses/norovirus/visual.png",
-        "alt": "Illusttration for Norovirus"
+        "src": "images/viruses/calicivirus/visual.png",
+        "alt": "Illusttration for Calicivirus"
       },
-      "incubation": "12-48 hours",
-      "description": "NoV is the most common viral agent causing FBOs worldwide. It is probably a widespread infection in the community, but explosive outbreaks can occur if an infected individual contaminates a common food or water source.",
-      "symptoms": "Nausea, vomiting, watery non-bloody diarrhoea, dehydration.",
-      "transmission": "Contaminated bivalve molluscs consumed raw or undercooked and complex foods are important sources of NoV.",
+      "incubation": "TBD",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "symptoms": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "transmission": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
       "mtimage": {
-        "src": "images/viruses/norovirus/transmission-mode.png",
+        "src": "images/viruses/calicivirus/transmission-mode.png",
         "alt": "Transmission mode icon"
       }
     },
     "hepatitis-A": {
       "id": "hepatitis-A",
-      "name": "Hepatitis A virus (HAV)",
+      "name": "hepatitis A virus",
       "cover": {
         "src": "images/viruses/hepatitis-A/visual.png",
         "alt": "Illusttration for Calicivirus"
       },
-      "incubation": "25-28 days (range 2-6 weeks)",
-      "description": "HAV infection is almost exclusively via contact with an infected persons or via faecally contaminated food or drink.",
-      "symptoms": "Symptoms of hepatitis A can last up to 2 months and include fatigue, nausea, stomach pain, and jaundice.",
-      "transmission": "Foods involved include shellfish, raw fruit and vegetables, bakery products.",
+      "incubation": "TBD",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "symptoms": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "transmission": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
       "mtimage": {
         "src": "images/viruses/hepatitis-A/transmission-mode.png",
         "alt": "Transmission mode icon"
@@ -201,15 +201,15 @@
     },
     "hepatitis-E": {
       "id": "hepatitis-E",
-      "name": "Hepatitis E virus (HEV)",
+      "name": "hepatitis E virus",
       "cover": {
         "src": "images/viruses/hepatitis-A/visual.png",
         "alt": "Illusttration for Calicivirus"
       },
-      "incubation": "15-60 days",
-      "description": "HEV usually causes a self-limiting disease but occasionally a serious liver disease in humans can occur.",
-      "symptoms": "Fever, fatigue, nausea, vomiting, jaundice.",
-      "transmission": "Main route of transmission is the fecal-oral route via contaminated water. In industrialized countries, other risk factors include eating raw or undercooked pork or wild boar meat.",
+      "incubation": "TBD",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "symptoms": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "transmission": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
       "mtimage": {
         "src": "images/viruses/hepatitis-A/transmission-mode.png",
         "alt": "Transmission mode icon"
@@ -225,10 +225,10 @@
         "src": "images/parasites/trichinella/visual.png",
         "alt": "Illusttration for Trichinella"
       },
-      "incubation": "4-28 days",
-      "description": "Ten species and three genotypes are currently recognised within the genus <em>Trichinella</em>.",
-      "symptoms": "During the initial larvae invasion symptoms are nausea, vomiting, diarrhoea and fever.",
-      "transmission": "Trichinellosis can occur where humans eat raw or undercooked meat products from mammals, birds and reptiles harbouring the infective larvae of the parasite.",
+      "incubation": "TBD",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "symptoms": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "transmission": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
       "mtimage": {
         "src": "images/parasites/trichinella/transmission-mode.png",
         "alt": "Transmission mode icon"
@@ -241,10 +241,10 @@
         "src": "images/parasites/toxoplasma/visual.png",
         "alt": "Illusttration for Toxoplasma"
       },
-      "incubation": "5-23 days",
-      "description": "<em>T. gondii</em> is potentially infective to all vertebrate species, with felids being the definitive host.",
-      "symptoms": "Infections often asymptomatic or present as acute disease with lymphadenopathy and lymphocytosis persisting for days or weeks.",
-      "transmission": "Ingestion of <em>T. gondii</em> tissue cysts in raw or undercooked meat, of <em>T. gondii</em> tachyzoites in raw milk, and <em>T. gondii</em> sporulated oocysts contaminating fresh produce, shellfish, and water are all risk factors for human infection and were associated to several outbreaks of toxoplasmosis.",
+      "incubation": "TBD",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "symptoms": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "transmission": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
       "mtimage": {
         "src": "images/parasites/toxoplasma/transmission-mode.png",
         "alt": "Transmission mode icon"
@@ -257,10 +257,10 @@
         "src": "images/parasites/cryptosporidium/visual.png",
         "alt": "Illusttration for Cryptosporidium"
       },
-      "incubation": "2-4 days",
-      "description": "<em>C. parvum</em> is the most important zoonotic species and it has been demonstrated to be responsible for sporadic outbreaks of water-borne disease.",
-      "symptoms": "Persistent diarrhoea, nausea, vomiting and abdominal pain, sometimes accompanied by an influenza-like illness with fever.",
-      "transmission": "Spread through the faecal–oral route, person-to-person contact or consumption of fecally contaminated food and water. Sewage waste and agricultural and urban run-off have been recognised as sources of water contamination.",
+      "incubation": "TBD",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "symptoms": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "transmission": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
       "mtimage": {
         "src": "images/parasites/cryptosporidium/transmission-mode.png",
         "alt": "Transmission mode icon"
@@ -273,10 +273,10 @@
         "src": "images/parasites/giardia/visual.png",
         "alt": "Illusttration for Giardia"
       },
-      "incubation": "7-10 days",
-      "description": "<em>Giardia</em> is an intestinal protozoan infecting humans.",
-      "symptoms": "Infection may result in a large range of clinical symptoms, the most common being diarrhoea.",
-      "transmission": "Foodborne transmission may occur when food is handled by infected individuals.",
+      "incubation": "TBD",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "symptoms": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "transmission": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
       "mtimage": {
         "src": "images/parasites/giardia/transmission-mode.png",
         "alt": "Transmission mode icon"
@@ -292,10 +292,10 @@
         "src": "images/other/histamine/visual.png",
         "alt": "Illusttration for Histamine"
       },
-      "incubation": "1 hour",
-      "description": "Histamine is a biogenic amine that is formed in foods by certain bacteria that are able to decarboxylate the amino acid, histidine.",
-      "symptoms": "The ingestion of histamine-rich food may cause nausea, vomiting, diarrhea, red rash, and hypotension.",
-      "transmission": "Histamine poisoning results from the consumption of foods, typically certain types of fish and cheeses, that contain unusually high levels of histamine.",
+      "incubation": "TBD",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "symptoms": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "transmission": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
       "mtimage": {
         "src": "images/other/histamine/transmission-mode.png",
         "alt": "Transmission mode icon"
@@ -308,10 +308,10 @@
         "src": "images/other/marine-biotoxins/visual.png",
         "alt": "Illusttration for Marine biotoxins"
       },
-      "incubation": "Minutes to hours. Less than 12 hours",
-      "description": "Marine biotoxins are naturally occurring chemicals caused by certain types of toxic algae. Marine biotoxins can accumulate in seafood, and most human illnesses from marine biotoxins occur when people eat contaminated fish or shellfish.",
-      "symptoms": "Symptoms of Ciguatera fish poisoning can include nausea, vomiting, diarrhea, and stomach pain. Some people experience tooth pain and a metallic taste in the mouth.",
-      "transmission": "The most common reported illness caused by marine biotoxin in food is caused by eating fish with high amounts of Ciguatoxins.",
+      "incubation": "TBD",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "symptoms": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
+      "transmission": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit risus. Etiam ultrices porttitor semper. Fusce pretium quam non tincidunt efficitur...",
       "mtimage": {
         "src": "images/other/marine-biotoxins/transmission-mode.png",
         "alt": "Transmission mode icon"
