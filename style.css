@@ -207,8 +207,6 @@ nav .grid {
 
 nav .grid-item {
   margin-bottom: 2vh;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
 }
 
 @media (min-width: 750px) {
