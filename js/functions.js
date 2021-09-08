@@ -86,11 +86,11 @@ function loadContents(elem) {
   }
   if (categoryBlock.classList.contains("parasites")) {
     category = JSON_contents.parasites[elemId];
-    categoryName = JSON_contents.viruses["catname"];
+    categoryName = JSON_contents.parasites["catname"];
   }
   if (categoryBlock.classList.contains("other")) {
     category = JSON_contents.other[elemId];
-    categoryName = JSON_contents.viruses["catname"];
+    categoryName = JSON_contents.other["catname"];
   }
 
   // define dom variable

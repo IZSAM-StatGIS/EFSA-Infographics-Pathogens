@@ -203,7 +203,7 @@
       "id": "hepatitis-E",
       "name": "Hepatitis E virus (HEV)",
       "cover": {
-        "src": "images/viruses/hepatitis-A/visual.png",
+        "src": "images/viruses/hepatitis-E/visual.png",
         "alt": "Illusttration for Calicivirus"
       },
       "incubation": "15-60 days",
@@ -211,7 +211,7 @@
       "symptoms": "Fever, fatigue, nausea, vomiting, jaundice.",
       "transmission": "Main route of transmission is the fecal-oral route via contaminated water. In industrialized countries, other risk factors include eating raw or undercooked pork or wild boar meat.",
       "mtimage": {
-        "src": "images/viruses/hepatitis-A/transmission-mode.png",
+        "src": "images/viruses/hepatitis-E/transmission-mode.png",
         "alt": "Transmission mode icon"
       }
     }
