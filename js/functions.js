@@ -92,7 +92,6 @@ function loadContents(elem) {
     category = JSON_contents.other[elemId];
     categoryName = JSON_contents.other["catname"];
   }
-
   // define dom variable
   var pathongenHead = document.querySelector('.pathogen-name');
   var pathongenCategory = pathongenHead.querySelector('h3');
@@ -116,10 +115,19 @@ function loadContents(elem) {
   pathongenTransmissionContents.innerHTML = category.transmission;
   // show loadContents
   bodyEl.classList.toggle("show-contents");
+  imagesLoaded( pathongenTransmission, function( instance ) {
+    pathongenTransmission.classList.toggle("show-image");
+  });
 }
 
 function backToMenu() {
   bodyEl.classList.remove("show-contents");
+  var pathongenTransmission = document.querySelector('.pathogen-transmission');
+  pathongenTransmission.classList.toggle("show-image");
+  setTimeout(function(){
+    pathongenTransmission.getElementsByTagName("img")[0].src = "";
+    pathongenTransmission.getElementsByTagName("img")[0].alt = "";
+  }, 800);
 }
 
 bodyEl.onload = function() {
