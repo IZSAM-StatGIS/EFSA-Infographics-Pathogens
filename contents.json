@@ -3,7 +3,7 @@
     "catname": "Bacteria",
     "campylobacter": {
       "id": "campylobacter",
-      "name": "Campylobacter",
+      "name": "<em>Campylobacter</em>",
       "cover": {
         "src": "images/bacteria/campylobacter/visual.png",
         "alt": "Illusttration for Campylobacter"
@@ -19,13 +19,13 @@
     },
     "salmonella": {
       "id": "salmonella",
-      "name": "Salmonella",
+      "name": "<em>Salmonella</em>",
       "cover": {
         "src": "images/bacteria/salmonella/visual.png",
         "alt": "Illusttration for Salmonella"
       },
       "incubation": "6–48 hours",
-      "description": "There are more than 2200 different <em>Salmonella</em> serotypes and the great majority are capable of causing human infection. <em>S. enteritidis</em> and <em>S. typhimurium</em> are considered the most important serotypes from a public health perspective. <em>Salmonella have typical animal reservoirs with many domestic species playing an important role as source of human infection, in particular hens, poultry, pigs and cattle.",
+      "description": "There are more than 2200 different <em>Salmonella</em> serotypes and the great majority are capable of causing human infection. <em>S. enteritidis</em> and <em>S. typhimurium</em> are considered the most important serotypes from a public health perspective. <em>Salmonella</em> have typical animal reservoirs with many domestic species playing an important role as source of human infection, in particular hens, poultry, pigs and cattle.",
       "symptoms": "Fever, headache, nausea, vomiting, abdominal pain and diarrhoea.",
       "transmission": "Humans become infected through the consumption of a wide variety of food derived from infected food animals (i.e. eggs, milk, meat and meat products). Food can also be contaminated by infected food-handlers or by cross contamination as a result of poor hygiene (bakery products, fruits, vegetables and water).",
       "mtimage": {
@@ -35,10 +35,10 @@
     },
     "listeria": {
       "id": "listeria",
-      "name": "Listeria",
+      "name": "<em>Listeria monocytogenes</em>",
       "cover": {
         "src": "images/bacteria/listeria/visual.png",
-        "alt": "Illusttration for Listeria"
+        "alt": "Illusttration for Listeria monocytogenes"
       },
       "incubation": "Days to several weeks",
       "description": "<em>L. monocytogenes</em> is widely distributed in the environment; the bacterium may enter abattoirs with carrier animals but contamination of food products often originates from the environment in which these are processed rather than from animals. <em>L. monocytogenes</em> can cause abortion and stillborn in pregnant women and in infants and persons with a weakened immune system it may lead to septicaemia and meningitis.",
@@ -51,15 +51,15 @@
     },
     "coli": {
       "id": "coli",
-      "name": "Shigatoxin-producing Escherichia Coli (STEC)",
+      "name": "<em>Shigatoxin-producing Escherichia Coli</em> (STEC)",
       "cover": {
         "src": "images/bacteria/coli/visual.png",
         "alt": "Illusttration for Escherichia Coli"
       },
       "incubation": "3-8 days",
       "description": "Shigatoxin-producing <em>E. coli</em> are zoonotic agents whose natural reservoirs are domestic ruminants (cattle, goats, sheep). Clinical course of STEC infection in humans may range from mild abdominal pain to haemorrhagic colitis and haemolytic uremic syndrome (HUS), a severe systemic condition characterised by anemia, thrombocytopenia and acute renal failure. HUS affects particularly small children.",
-      "symptoms": "Abdominal cramps and watery diarrhoea that may develop into bloody ((haemorrhagic colitis), fever and vomiting.",
-      "transmission": "Infections are usually caused by the consumption of contaminated food of animal origin such minced meat, undercooked hamburger, raw unpasteurised milk and raw milk cheeses but also leafy green vegetables, sprouts and contaminated drinking water.",
+      "symptoms": "Abdominal cramps and watery diarrhoea that may develop into bloody (haemorrhagic colitis), fever and vomiting.",
+      "transmission": "Infections are usually caused by the consumption of contaminated food of animal origin such as minced meat, undercooked hamburger, raw unpasteurised milk and raw milk cheeses but also leafy green vegetables, sprouts and contaminated drinking water.",
       "mtimage": {
         "src": "images/bacteria/coli/transmission-mode.png",
         "alt": "Transmission mode icon"
@@ -67,13 +67,13 @@
     },
     "yersinia": {
       "id": "yersinia",
-      "name": "Yersinia",
+      "name": "<em>Yersinia</em>",
       "cover": {
         "src": "images/bacteria/yersinia/visual.png",
         "alt": "Illusttration for Yersinia"
       },
       "incubation": "24-36 hours",
-      "description": "<em>Y. enterocolitica</em> which can be isolated from many species of mammals and birds is an important cause of gastroenteritis in humans. In contrast to the frequent occurrence of bacteria in pigs, pathogenic Y. enterocolitica have only exceptionally been found on retail pork products.",
+      "description": "<em>Y. enterocolitica</em> which can be isolated from many species of mammals and birds is an important cause of gastroenteritis in humans. In contrast to the frequent occurrence of bacteria in pigs, pathogenic <em>Y. enterocolitica</em> have only exceptionally been found on retail pork products.",
       "symptoms": "Abdominal pain, diarrhoea, mild fever, vomiting.",
       "transmission": "Consumption of pork products (tongue, tonsils, gut), cured or uncured, as well as milk and milk products.",
       "mtimage": {
@@ -83,7 +83,7 @@
     },
     "brucella": {
       "id": "brucella",
-      "name": "Brucella",
+      "name": "<em>Brucella</em>",
       "cover": {
         "src": "images/bacteria/brucella/visual.png",
         "alt": "Illusttration for Brucella"
@@ -102,13 +102,13 @@
     "catname": "Bacterial toxins",
     "bacillus-cereus": {
       "id": "bacillus-cereus",
-      "name": "Toxins of Bacillus cereus",
+      "name": "<em>Bacillus cereus</em>",
       "cover": {
         "src": "images/bacterial-toxins/bacillus-cereus/visual.png",
-        "alt": "Illusttration for Toxins of Bacillus cereus"
+        "alt": "Illusttration for Bacillus cereus"
       },
-      "incubation": "Diarrhoeal syndrome: 8 16 hours. Emetic syndrome: 1-5 hours",
-      "description": "<em>B. cereus</em> can produce two different types of toxins responsible for foodborne illness. The emetic toxin causes vomiting, while the enterotoxin(s) induces diarrhoea. Generally, the disease is self-limiting in 24 hours but occasionally can persist for up to several days. B. cereus spores are ubiquitous in the environment, raw materials, and foods. Improper food handler and storage are the primary reason for toxinogenesis.",
+      "incubation": "Diarrhoeal syndrome: 8-16 hours. Emetic syndrome: 1-5 hours",
+      "description": "<em>B. cereus</em> can produce two different types of toxins responsible for foodborne illness. The emetic toxin causes vomiting, while the enterotoxin(s) induces diarrhoea. Generally, the disease is self-limiting in 24 hours but occasionally can persist for up to several days. <em>B. cereus</em> spores are ubiquitous in the environment, raw materials, and foods. Improper food handler and storage are the primary reason for toxinogenesis.",
       "symptoms": "Diarrhoeal syndrome: acute diarrhoea, nausea and abdominal pain. Emetic syndrome: acute nausea, vomiting and abdominal pain and sometimes diarrhoea.",
       "transmission": "Ingestion of food that has been stored at ambient temperatures after cooking, permitting the growth of bacterial spores and toxin production. The most common foods implicated in the emetic syndrome are fried and cooked rice, pasta, pastry, and noodles. Those mainly involved in the diarrheal manifestation are meat products, soups, vegetables, sauces, milk, and milk products.",
       "mtimage": {
@@ -118,13 +118,13 @@
     },
     "clostridium-botulinum": {
       "id": "clostridium-botulinum",
-      "name": "Clostridium botulinum",
+      "name": "<em>Clostridium botulinum</em>",
       "cover": {
         "src": "images/bacterial-toxins/clostridium-botulinum/visual.png",
         "alt": "Illusttration for Toxins of Bacillus cereus"
       },
       "incubation": "12-36 hours (range several hours to 8 days)",
-      "description": "Botulinum toxins (BoNTs) are the most potent protein poisons known for humans and warm-blooded animals. Since C. botulinum and other BoNT-producing clostridia are environmental microorganisms, they may contaminate raw material and foods. Improper canning or processing can allow spores germination, overgrowth, and toxin production. The consumption of a small amount of foods contaminated with BoNTs can cause a severe neuro-paralytic disease named botulism.",
+      "description": "Botulinum toxins (BoNTs) are the most potent protein poisons known for humans and warm-blooded animals. Since <em>C. botulinum</em> and other BoNT-producing clostridia are environmental microorganisms, they may contaminate raw material and foods. Improper canning or processing can allow spores germination, overgrowth, and toxin production. The consumption of a small amount of foods contaminated with BoNTs can cause a severe neuro-paralytic disease named botulism.",
       "symptoms": "Vomiting, abdominal pain, fatigue, muscle weakness, headache, constipation, dry mouth and difficulty in swallowing and speaking, and ultimately paralysis and respiratory or heart failure.",
       "transmission": "Ingestion of toxin pre-formed in food. Home-canned vegetables, fermented fish products, canned meat, foods packaged in air-tight or modified-atmosphere containers stored at inappropriate refrigeration conditions are the typical foods associated with foodborne botulism.",
       "mtimage": {
@@ -134,7 +134,7 @@
     },
     "clostridium-perfringens": {
       "id": "clostridium-perfringens",
-      "name": "Clostridium perfringens",
+      "name": "<em>Clostridium perfringens</em>",
       "cover": {
         "src": "images/bacterial-toxins/clostridium-perfringens/visual.png",
         "alt": "Illusttration for Toxins of Bacillus cereus"
@@ -150,7 +150,7 @@
     },
     "staphylococcus-aureus": {
       "id": "staphylococcus-aureus",
-      "name": "Staphylococcus aureus",
+      "name": "<em>Staphylococcus aureus</em>",
       "cover": {
         "src": "images/bacterial-toxins/staphylococcus-aureus/visual.png",
         "alt": "Illusttration for Toxins of Bacillus cereus"
@@ -169,7 +169,7 @@
     "catname": "Viruses",
     "norovirus": {
       "id": "norovirus",
-      "name": "Norovirus (NoV)",
+      "name": "<em>Norovirus</em> (NoV)",
       "cover": {
         "src": "images/viruses/norovirus/visual.png",
         "alt": "Illusttration for Norovirus"
@@ -185,7 +185,7 @@
     },
     "hepatitis-A": {
       "id": "hepatitis-A",
-      "name": "Hepatitis A virus (HAV)",
+      "name": "<em>Hepatitis A virus</em> (HAV)",
       "cover": {
         "src": "images/viruses/hepatitis-A/visual.png",
         "alt": "Illusttration for Calicivirus"
@@ -201,7 +201,7 @@
     },
     "hepatitis-E": {
       "id": "hepatitis-E",
-      "name": "Hepatitis E virus (HEV)",
+      "name": "<em>Hepatitis E virus</em> (HEV)",
       "cover": {
         "src": "images/viruses/hepatitis-E/visual.png",
         "alt": "Illusttration for Calicivirus"
@@ -220,7 +220,7 @@
     "catname": "Parasites",
     "trichinella": {
       "id": "trichinella",
-      "name": "Trichinella",
+      "name": "<em>Trichinella</em>",
       "cover": {
         "src": "images/parasites/trichinella/visual.png",
         "alt": "Illusttration for Trichinella"
@@ -236,7 +236,7 @@
     },
     "toxoplasma": {
       "id": "toxoplasma",
-      "name": "Toxoplasma",
+      "name": "<em>Toxoplasma</em>",
       "cover": {
         "src": "images/parasites/toxoplasma/visual.png",
         "alt": "Illusttration for Toxoplasma"
@@ -252,7 +252,7 @@
     },
     "cryptosporidium": {
       "id": "cryptosporidium",
-      "name": "Cryptosporidium",
+      "name": "<em>Cryptosporidium</em>",
       "cover": {
         "src": "images/parasites/cryptosporidium/visual.png",
         "alt": "Illusttration for Cryptosporidium"
@@ -268,7 +268,7 @@
     },
     "giardia": {
       "id": "giardia",
-      "name": "Giardia",
+      "name": "<em>Giardia</em>",
       "cover": {
         "src": "images/parasites/giardia/visual.png",
         "alt": "Illusttration for Giardia"
