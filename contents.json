@@ -51,7 +51,7 @@
     },
     "coli": {
       "id": "coli",
-      "name": "<em>Shigatoxin-producing Escherichia Coli</em> (STEC)",
+      "name": "Shigatoxin-producing <em>Escherichia Coli</em> (STEC)",
       "cover": {
         "src": "images/bacteria/coli/visual.png",
         "alt": "Illusttration for Escherichia Coli"
@@ -169,7 +169,7 @@
     "catname": "Viruses",
     "norovirus": {
       "id": "norovirus",
-      "name": "<em>Norovirus</em> (NoV)",
+      "name": "Norovirus (NoV)",
       "cover": {
         "src": "images/viruses/norovirus/visual.png",
         "alt": "Illusttration for Norovirus"
@@ -185,7 +185,7 @@
     },
     "hepatitis-A": {
       "id": "hepatitis-A",
-      "name": "<em>Hepatitis A virus</em> (HAV)",
+      "name": "Hepatitis A virus (HAV)",
       "cover": {
         "src": "images/viruses/hepatitis-A/visual.png",
         "alt": "Illusttration for Calicivirus"
@@ -201,7 +201,7 @@
     },
     "hepatitis-E": {
       "id": "hepatitis-E",
-      "name": "<em>Hepatitis E virus</em> (HEV)",
+      "name": "Hepatitis E virus (HEV)",
       "cover": {
         "src": "images/viruses/hepatitis-E/visual.png",
         "alt": "Illusttration for Calicivirus"
