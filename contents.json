@@ -8,7 +8,7 @@
         "src": "images/bacteria/campylobacter/visual.png",
         "alt": "Illusttration for Campylobacter"
       },
-      "incubation": "2-5 days (range 1-11 days)",
+      "incubation": "2-5 days (range 1-10 days)",
       "description": "<em>Campylobacter jejuni</em> and <em>Campylobacter coli</em> are the main clinically relevant species of <em>Campylobacter</em> and are responsible for majority of human infections. Although <em>C. jejuni</em> is the most frequent cause of campylobacteriosis in humans, <em>C. coli</em> can contribute to 25% of the cases. Poultry and domestic animals are the principal reservoirs of infection, with the first being responsible directly and indirectly for 50%-80% of the reported human cases.",
       "symptoms": "Fever, severe abdominal pain, nausea and diarrhoea which can vary from slight to profuse and watery.",
       "transmission": "Ingestion of contaminated food. Main food sources are raw milk and raw or undercooked poultry. Spread to other foods by cross-contamination or contamination with untreated water.",
@@ -24,7 +24,7 @@
         "src": "images/bacteria/salmonella/visual.png",
         "alt": "Illusttration for Salmonella"
       },
-      "incubation": "6–48 hours",
+      "incubation": "12–36 hours",
       "description": "There are more than 2200 different <em>Salmonella</em> serotypes and the great majority are capable of causing human infection. <em>S. enteritidis</em> and <em>S. typhimurium</em> are considered the most important serotypes from a public health perspective. <em>Salmonella</em> have typical animal reservoirs with many domestic species playing an important role as source of human infection, in particular hens, poultry, pigs and cattle.",
       "symptoms": "Fever, headache, nausea, vomiting, abdominal pain and diarrhoea.",
       "transmission": "Humans become infected through the consumption of a wide variety of food derived from infected food animals (i.e. eggs, milk, meat and meat products). Food can also be contaminated by infected food-handlers or by cross contamination as a result of poor hygiene (bakery products, fruits, vegetables and water).",
@@ -40,7 +40,7 @@
         "src": "images/bacteria/listeria/visual.png",
         "alt": "Illusttration for Listeria monocytogenes"
       },
-      "incubation": "Days to several weeks",
+      "incubation": "Days to three weeks",
       "description": "<em>L. monocytogenes</em> is widely distributed in the environment; the bacterium may enter abattoirs with carrier animals but contamination of food products often originates from the environment in which these are processed rather than from animals. <em>L. monocytogenes</em> can cause abortion and stillborn in pregnant women and in infants and persons with a weakened immune system it may lead to septicaemia and meningitis.",
       "symptoms": "Influenza-like symptoms such as fever, headache and occasionally gastrointestinal symptoms. In pregnant women abortion and stillbirth. Meningoencephalitis in neonate and immunocompromised subjects.",
       "transmission": "The disease is most often associated with consumption of foods such as raw milk, soft cheese, meat-products, fish and fish products.",
@@ -51,7 +51,7 @@
     },
     "coli": {
       "id": "coli",
-      "name": "Shigatoxin-producing <em>Escherichia Coli</em> (STEC)",
+      "name": "Shigatoxin-producing <em>Escherichia coli</em> (STEC)",
       "cover": {
         "src": "images/bacteria/coli/visual.png",
         "alt": "Illusttration for Escherichia Coli"
@@ -72,7 +72,7 @@
         "src": "images/bacteria/yersinia/visual.png",
         "alt": "Illusttration for Yersinia"
       },
-      "incubation": "24-36 hours",
+      "incubation": "4-10 days",
       "description": "<em>Y. enterocolitica</em> which can be isolated from many species of mammals and birds is an important cause of gastroenteritis in humans. In contrast to the frequent occurrence of bacteria in pigs, pathogenic <em>Y. enterocolitica</em> have only exceptionally been found on retail pork products.",
       "symptoms": "Abdominal pain, diarrhoea, mild fever, vomiting.",
       "transmission": "Consumption of pork products (tongue, tonsils, gut), cured or uncured, as well as milk and milk products.",
@@ -88,7 +88,7 @@
         "src": "images/bacteria/brucella/visual.png",
         "alt": "Illusttration for Brucella"
       },
-      "incubation": "Several days to several weeks/month",
+      "incubation": "5-60 days",
       "description": "One of the most widespread zoonoses, brucellosis is caused by various bacteria in the genus <em>Brucella</em>. In humans, the main symptom is recurrent bouts of high temperature, but flu-like symptoms and chronic debilitating disease are also common.",
       "symptoms": "Continuous, intermittent or irregular fever, lassitude, sweat, headache, chills, constipation, arthralgias, generalized aching, weight loss, anorexia.",
       "transmission": "Consumption of milk (usually goat’s or sheep’s milk) and products made from unpasteurized milk (e.g. fresh goat’s cheese).",
@@ -190,7 +190,7 @@
         "src": "images/viruses/hepatitis-A/visual.png",
         "alt": "Illusttration for Calicivirus"
       },
-      "incubation": "25-28 days (range 2-6 weeks)",
+      "incubation": "28-30 days (range 15-50 days)",
       "description": "HAV infection is almost exclusively via contact with an infected persons or via faecally contaminated food or drink.",
       "symptoms": "Symptoms of hepatitis A can last up to 2 months and include fatigue, nausea, stomach pain, and jaundice.",
       "transmission": "Foods involved include shellfish, raw fruit and vegetables, bakery products.",
@@ -225,9 +225,9 @@
         "src": "images/parasites/trichinella/visual.png",
         "alt": "Illusttration for Trichinella"
       },
-      "incubation": "4-28 days",
+      "incubation": "24-48 hours (larval invasion of the intestine) 4-28 days (larval invasion of the muscles)",
       "description": "Ten species and three genotypes are currently recognised within the genus <em>Trichinella</em>.",
-      "symptoms": "During the initial larvae invasion symptoms are nausea, vomiting, diarrhoea and fever.",
+      "symptoms": "During the initial larvae invasion symptoms are nausea, vomiting, diarrhoea and fever. In a later stage muscles aches and fever are characteristic.",
       "transmission": "Trichinellosis can occur where humans eat raw or undercooked meat products from mammals, birds and reptiles harbouring the infective larvae of the parasite.",
       "mtimage": {
         "src": "images/parasites/trichinella/transmission-mode.png",
@@ -273,7 +273,7 @@
         "src": "images/parasites/giardia/visual.png",
         "alt": "Illusttration for Giardia"
       },
-      "incubation": "7-10 days",
+      "incubation": "10-25 days",
       "description": "<em>Giardia</em> is an intestinal protozoan infecting humans.",
       "symptoms": "Infection may result in a large range of clinical symptoms, the most common being diarrhoea.",
       "transmission": "Foodborne transmission may occur when food is handled by infected individuals.",
