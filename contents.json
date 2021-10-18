@@ -11,7 +11,7 @@
       "incubation": "2-5 days (range of 1-10 days)",
       "description": "<em>Campylobacter jejuni</em> and <em>Campylobacter coli</em> are the main clinically relevant species of <em>Campylobacter</em> causing most human infections. Although <em>C. jejuni</em> is the most frequent cause of campylobacteriosis in humans, <em>C. coli</em> can contribute to 25% of cases. Poultry and domestic animals are the main reservoirs of infection, with poultry being responsible directly and indirectly for 50%-80% of reported human cases.",
       "symptoms": "Fever, severe abdominal pain, nausea and diarrhoea, varying from slight to profuse and watery.",
-      "transmission": "Ingestion of contaminated food. The main food sources are raw milk and raw or undercooked poultry. The bacteria spread to other foods through cross-contamination or contamination with untreated water.",
+      "transmission": "Ingestion of contaminated food. The main food sources are raw milk and raw or undercooked poultry meat. The bacteria spread to other foods through cross-contamination or contamination with untreated water.",
       "mtimage": {
         "src": "images/bacteria/campylobacter/transmission-mode.png",
         "alt": "Transmission mode icon"
@@ -43,7 +43,7 @@
       "incubation": "A few days to three weeks",
       "description": "<em>L. monocytogenes</em> is commonly found in the environment. The bacterium may enter abattoirs with carrier animals in some cases, but the contamination of food products often takes place in  the processing environment rather than being caused directly by the animals. <em>L. monocytogenes</em> can cause miscarriages and stillbirths in pregnant women. In infants and people with a weakened immune system, it may lead to septicaemia and meningitis.",
       "symptoms": "Influenza-like symptoms such as fever, headache and occasionally gastrointestinal symptoms. In pregnant women, miscarriages and stillbirths. Meningoencephalitis in neonate and immunocompromised subjects.",
-      "transmission": "The disease is most often associated with the consumption of foods such as raw milk, soft cheese, meat products, fish and fishery products.",
+      "transmission": "The disease is often associated with the consumption of contaminated foods such as soft cheese, meat products, fish and fishery products, raw milk.",
       "mtimage": {
         "src": "images/bacteria/listeria/transmission-mode.png",
         "alt": "Transmission mode icon"
@@ -75,7 +75,7 @@
       "incubation": "4-10 days",
       "description": "<em>Y. enterocolitica</em> which can be isolated from many species of mammals and birds, is a major cause of gastroenteritis in humans. Despite the frequent occurrence of the bacteria in pigs, pathogenic <em>Y. enterocolitica</em> have only exceptionally been found on retail pork products.",
       "symptoms": "Abdominal pain, diarrhoea, mild fever, vomiting.",
-      "transmission": "The consumption of pork products (tongue, tonsils, gut), cured or uncured, as well as milk and milk products.",
+      "transmission": "Pork products (tongue, tonsils, gut), cured or uncured, as well as unpasteurised (raw) milk and milk products are the main implicated foods.",
       "mtimage": {
         "src": "images/bacteria/yersinia/transmission-mode.png",
         "alt": "Transmission mode icon"
@@ -91,7 +91,7 @@
       "incubation": "5-60 days",
       "description": "One of the most widespread zoonoses, brucellosis is caused by bacteria of the genus <em>Brucella</em>. In humans, the main symptom is recurrent bouts of high temperature, but flu-like symptoms and chronic debilitating disease are also common.",
       "symptoms": "Continuous, intermittent or irregular fever, fatigue, sweating, headache, chills, constipation, arthralgias, generalised aching, weight loss, anorexia.",
-      "transmission": "The consumption of milk (usually goat or sheep milk) and products made from unpasteurized milk (e.g. fresh goat cheese).",
+      "transmission": "Milk (usually goat or sheep milk) and dairy products made from unpasteurised milk (e.g. fresh goat cheese) are the main implicated food in <em>Brucella</em> outbreaks.",
       "mtimage": {
         "src": "images/bacteria/brucella/transmission-mode.png",
         "alt": "Transmission mode icon"
@@ -110,7 +110,7 @@
       "incubation": "Diarrhoeal syndrome: 8-16 hours. Emetic syndrome: 1-5 hours",
       "description": "<em>B. cereus</em> can produce two different types of toxins responsible for foodborne illness. The emetic toxin causes vomiting, while the enterotoxin(s) leads to diarrhoea. Generally, the disease is self-limiting, lasting only 24 hours, but it can occasionally persist for up to several days. <em>B. cereus</em> spores are ubiquitous in the environment, as well as in raw materials, and foods. Improper food handling and storage are the main reason for toxinogenesis.",
       "symptoms": "Diarrhoeal syndrome: acute diarrhoea, nausea and abdominal pain. Emetic syndrome: acute nausea, vomiting and abdominal pain and sometimes diarrhoea.",
-      "transmission": "The ingestion of food that has been stored at ambient temperatures after cooking, permitting the growth of bacterial spores and toxin production. The most common foods implicated in the emetic syndrome are fried and cooked rice, pasta, pastry, and noodles. For the diarrheal manifestation, the most common foods are meat products, soups, vegetables, sauces, milk, and milk products.",
+      "transmission": "This food poisoning is caused by the ingestion of preformed toxins in contaminated food stored at ambient temperatures after cooking. The most common foods implicated in the emetic syndrome are fried and cooked rice, pasta, pastry, and noodles. For the diarrheal manifestation, the most common foods are meat products, soups, vegetables, sauces, milk, and milk products.",
       "mtimage": {
         "src": "images/bacterial-toxins/bacillus-cereus/transmission-mode.png",
         "alt": "Transmission mode icon"
@@ -142,7 +142,7 @@
       "incubation": "8-24 hours",
       "description": "Some strains of <em>C. perfringens</em> can produce more than 20 toxins and dangerous enzymes. The strains responsible for foodborne illnesses mainly cause stomach cramps and diarrhoea; nausea and vomiting are rare. <em>C. perfringens</em> is widely present in the environment including in soil, water and the intestinal tract of animals and humans.",
       "symptoms": "Abdominal pain, diarrhoea, rarely vomiting and fever.",
-      "transmission": "Undercooked, improperly stored (at abusive temperatures), meat dishes are the food items mainly involved in outbreaks. Considering that this microorganism can rapidly multiply, foods slowly cooled after cooking can be at risk. Foods involved include meat and poultry.",
+      "transmission": "Undercooked or improperly stored (at temperature abuse) meat dishes (beef and chicken) are the food items mainly involved in outbreaks because the microorganism is capable of quickly grow in foods.",
       "mtimage": {
         "src": "images/bacterial-toxins/clostridium-perfringens/transmission-mode.png",
         "alt": "Transmission mode icon"
@@ -177,7 +177,7 @@
       "incubation": "12-48 hours",
       "description": "NoV is the most common viral agent causing FBO worldwide. It is probably widespread in the community, but explosive outbreaks can occur if an infected individual contaminates a common food or water source.",
       "symptoms": "Nausea, vomiting, watery non-bloody diarrhoea, dehydration.",
-      "transmission": "The main source of NoV are contaminated bivalve molluscs consumed raw or undercooked and complex foods.",
+      "transmission": "The main source of NoV are contaminated bivalve molluscs consumed raw or undercooked and composite mixed foods.",
       "mtimage": {
         "src": "images/viruses/norovirus/transmission-mode.png",
         "alt": "Transmission mode icon"
@@ -193,7 +193,7 @@
       "incubation": "28-30 days (range of 15-50 days)",
       "description": "HAV infection is almost exclusively the result of contact with an infected person or faecally contaminated food or drink.",
       "symptoms": "Symptoms of hepatitis A can last for up to 2 months and include fatigue, nausea, stomach pain, and jaundice.",
-      "transmission": "The foods involved include shellfish, raw fruit and vegetables, bakery products.",
+      "transmission": "The foods involved include shellfish, raw fruit, particular berries, vegetables and bakery products.",
       "mtimage": {
         "src": "images/viruses/hepatitis-A/transmission-mode.png",
         "alt": "Transmission mode icon"
@@ -228,7 +228,7 @@
       "incubation": "24-48 hours (larval invasion of the intestine) 4-28 days (larval invasion of the muscles)",
       "description": "Ten species and three genotypes are currently recognised within the genus <em>Trichinella</em>.",
       "symptoms": "During the initial larvae invasion, the symptoms are nausea, vomiting, diarrhoea and fever. At a later stage, muscles aches and fever are characteristic.",
-      "transmission": "Trichinellosis can occur where humans eat raw or undercooked meat products from mammals, birds and reptiles harbouring the infective larvae of the parasite.",
+      "transmission": "Trichinellosis can occur where humans eat raw or undercooked meat products from mammals (mainly wild board and pigs), birds and reptiles harbouring the infective larvae of the parasite.",
       "mtimage": {
         "src": "images/parasites/trichinella/transmission-mode.png",
         "alt": "Transmission mode icon"
