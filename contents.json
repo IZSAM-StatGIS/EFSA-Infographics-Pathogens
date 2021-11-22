@@ -276,7 +276,7 @@
       "incubation": "10-25 days",
       "description": "<em>Giardia</em> is an intestinal protozoan infecting humans.",
       "symptoms": "Infection may result in a wide range of clinical symptoms, the most common being diarrhoea.",
-      "transmission": "The foods mainly implicated in foodborne outbreaks are Tap/well water, fruits and vegetables accidentally contaminated by this protozoan.",
+      "transmission": "The foods mainly implicated in foodborne outbreaks are tap/well water, fruits and vegetables accidentally contaminated by this protozoan.",
       "mtimage": {
         "src": "images/parasites/giardia/transmission-mode.png",
         "alt": "Transmission mode icon"
