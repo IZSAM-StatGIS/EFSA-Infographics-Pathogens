@@ -11,7 +11,7 @@
       "incubation": "2-5 days (range of 1-10 days)",
       "description": "<em>Campylobacter jejuni</em> and <em>Campylobacter coli</em> are the main clinically relevant species of <em>Campylobacter</em> causing most human infections. Although <em>C. jejuni</em> is the most frequent cause of campylobacteriosis in humans, <em>C. coli</em> can contribute to 25% of cases. Poultry and domestic animals are the main reservoirs of infection, with poultry being responsible directly and indirectly for 50%-80% of reported human cases.",
       "symptoms": "Fever, severe abdominal pain, nausea and diarrhoea, varying from slight to profuse and watery.",
-      "transmission": "Ingestion of contaminated food. The main food sources are raw milk and raw or undercooked poultry meat. The bacteria spread to other foods through cross-contamination or contamination with untreated water.",
+      "transmission": "The main food sources are raw milk and raw or undercooked poultry meat. The bacteria spread to other foods through cross-contamination or contamination with untreated water.",
       "mtimage": {
         "src": "images/bacteria/campylobacter/transmission-mode.png",
         "alt": "Transmission mode icon"
@@ -27,7 +27,7 @@
       "incubation": "12–36 hours",
       "description": "There are more than 2200 different <em>Salmonella</em> serotypes and the vast majority of which are capable of infecting humans. <em>S. enteritidis</em> and <em>S. typhimurium</em> are considered as the main serotypes from a public health perspective. <em>Salmonella</em> typically originates from animal reservoirs with many domestic species playing an important role as source of human infection, in particular poultry, pigs and cattle.",
       "symptoms": "Fever, headache, nausea, vomiting, abdominal pain and diarrhoea.",
-      "transmission": "Humans can become infected by consuming a wide variety of food derived from infected food animals (i.e. eggs, milk, meat and meat products). Food can also be contaminated by infected food-handlers or by cross contamination as a result of poor hygiene (bakery products, fruits, vegetables and water).",
+      "transmission": "Humans can become infected by consuming a wide variety of food (i.e. eggs, milk, meat and meat products) derived from infected food-producing animals. Food can also be contaminated by infected food-handlers or by cross contamination as a result of poor hygiene (bakery products, fruit, vegetables and water).",
       "mtimage": {
         "src": "images/bacteria/salmonella/transmission-mode.png",
         "alt": "Transmission mode icon"
@@ -276,7 +276,7 @@
       "incubation": "10-25 days",
       "description": "<em>Giardia</em> is an intestinal protozoan infecting humans.",
       "symptoms": "Infection may result in a wide range of clinical symptoms, the most common being diarrhoea.",
-      "transmission": "Foodborne transmission may occur when food is handled by infected individuals.",
+      "transmission": "The foods mainly implicated in foodborne outbreaks are Tap/well water, fruits and vegetables accidentally contaminated by this protozoan.",
       "mtimage": {
         "src": "images/parasites/giardia/transmission-mode.png",
         "alt": "Transmission mode icon"
