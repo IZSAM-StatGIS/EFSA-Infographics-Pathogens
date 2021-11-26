@@ -199,7 +199,7 @@ nav .button.is-checked {
 
 nav .grid {
   margin: 0 auto;
-  width: 90%;
+  width: 94%;
   margin-top: 3vh;
   padding-top: 3vh;
   border-top: 0.1rem solid rgba(255, 255, 255, 0.2);
@@ -236,20 +236,20 @@ nav .grid a:hover {
 
 nav .grid .link {
   display: block;
-  letter-spacing: 0.15rem;
-  font-size: 1.1rem;
+  letter-spacing: 0.1rem;
+  font-size: 1.2rem;
   line-height: 1.4;
   text-transform: uppercase;
   text-align: center;
-  width: 100%;
+  width: 90%;
+  margin: 0 auto;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
 @media (min-width: 750px) {
   nav .grid .link {
-    letter-spacing: 0.2rem;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 }
 
